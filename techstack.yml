@@ -1,0 +1,174 @@
+repo_name: jeromedalbert/diff-lcs
+report_id: ed67d9025786a0c539ca433bda3993f0
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-14T23:31:56+00:00'
+requested_by: halostatue
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs
+  detection_source: Repo Metadata
+- name: RSpec
+  description: Behaviour Driven Development for Ruby
+  website_url: https://rspec.info/
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2539/logo.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-01-21 02:45:27.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-01-21 02:45:27.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-01-21 02:45:27.000000000 Z
+- name: Rake
+  description: A software task management and build automation tool
+  website_url: https://github.com/ruby/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Task Management
+  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/diff-lcs.gemspec
+  detection_source: diff-lcs.gemspec
+  last_updated_by: "(no author)"
+  last_updated_on: 2004-10-17 20:31:10.000000000 Z
+- name: hoe
+  description: Hoe is a rake/rubygems helper for project Rakefiles
+  package_url: https://rubygems.org/hoe
+  version: '3.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18838/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-01-21 02:45:27.000000000 Z
+- name: hoe-bundler
+  description: Generate a Gemfile based on a Hoe spec's declared dependencies
+  package_url: https://rubygems.org/hoe-bundler
+  version: '1.2'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19422/default_7c4e3b5df7f4409d482e8f5c5877480803f7cb31.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-04-20 23:55:39.000000000 Z
+- name: hoe-doofus
+  description: A Hoe plugin that helps me
+  package_url: https://rubygems.org/hoe-doofus
+  version: '1.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19658/default_217a474c90a6421eca19a8e2dfa3b14100b29e9e.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-04-20 23:55:39.000000000 Z
+- name: hoe-git
+  description: A set of Hoe plugins for tighter Git integration
+  package_url: https://rubygems.org/hoe-git
+  version: '1.5'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19325/default_a0a837bacc5882c1d3770f60cc7c091025eff024.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-04-20 23:55:39.000000000 Z
+- name: rdoc
+  description: RDoc produces HTML and command-line documentation for Ruby projects
+  package_url: https://rubygems.org/rdoc
+  version: '4.0'
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18829/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-04-20 23:55:39.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary Code Execution in Rdoc
+    cve_id: CVE-2021-31799
+    cve_url: https://github.com/advisories/GHSA-ggxm-pgc9-g7fp
+    detected_date: Sep 2
+    severity: high
+    first_patched: 6.1.2.1
+- name: rubyforge
+  description: A script which automates a limited set of rubyforge operations
+  package_url: https://rubygems.org/rubyforge
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18944/default_9333f2b76f03dd84d1e9d76f8e5ad7d997d759ce.png
+  detection_source_url: https://github.com/jeromedalbert/diff-lcs/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Austin Ziegler
+  last_updated_on: 2013-04-20 23:55:39.000000000 Z
